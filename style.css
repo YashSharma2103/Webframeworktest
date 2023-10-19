@@ -1,7 +1,7 @@
 body{
   margin: 0;
   font-family: sans-serif;
-  background-color: black;
+  background-color: white   ;
 }
 
 .container{
@@ -22,7 +22,7 @@ h1{
   background-color: #bababa;
   border-radius: 5px;
 }
-.form-outline{
+.form-outer{
   background-color: white;
   padding: 10px;
   border: 1px solid grey;
@@ -35,18 +35,18 @@ h1{
   display: flex;
   flex-direction: column;
 }
-.bars{
+.firstbar{
   display: flex;
   align-items: center;
 }
-.bar1{
+.secondbar{
   border: 1px solid #b6b6b6;
   width: 100%;
   text-align: center;
   border-top: 4px solid #0f9d58;
   border-radius: 5px;
 }
-.bar2{
+.thirdbar{
   border-radius: 5px;
   background-color: #c9c9c9;
   width: 100%;
